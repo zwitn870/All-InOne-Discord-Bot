@@ -96,15 +96,9 @@
 ### Setup
 
 ```bash
-# Clone the repository
 git clone https://github.com/zwitn870/All-InOne-Discord-Bot.git
 cd All-InOne-Discord-Bot
-
-# Install dependencies
 npm install
-
-# Configure environment
-# Edit .env with your credentials
 ```
 
 ### Configuration
@@ -122,10 +116,7 @@ SPOTIFY_CLIENT_SECRET=
 ### Run
 
 ```bash
-# Development (with hot reload)
 npm run dev
-
-# Production
 npm run build
 npm start
 ```
