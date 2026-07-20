@@ -112,11 +112,11 @@ npm install
 Create a `.env` file:
 
 ```env
-DISCORD_TOKEN=your_bot_token_here
-DISCORD_CLIENT_ID=your_client_id_here
-MONGO_URI=mongodb+srv://user:pass@cluster.mongodb.net/?retryWrites=true&w=majority
-SPOTIFY_CLIENT_ID=your_spotify_id      # Optional
-SPOTIFY_CLIENT_SECRET=your_spotify_secret  # Optional
+DISCORD_TOKEN=
+DISCORD_CLIENT_ID=
+MONGO_URI=
+SPOTIFY_CLIENT_ID=
+SPOTIFY_CLIENT_SECRET=
 ```
 
 ### Run
