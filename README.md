@@ -127,30 +127,30 @@ npm start
 
 ```
 src/
-├── index.ts                          # Entry point & interaction router
-├── config.ts                         # Environment configuration
+├── index.ts
+├── config.ts
 ├── core/
-│   ├── Client.ts                     # Extended Discord client
-│   └── Loader.ts                     # Dynamic module loader
+│   ├── Client.ts
+│   └── Loader.ts
 ├── database/
-│   ├── connection.ts                 # MongoDB connection
-│   └── models/                       # Mongoose schemas
-│       ├── Guild.ts                  # Per-guild configuration
-│       ├── User.ts                   # User data (XP, currency, inventory)
-│       ├── Ticket.ts                 # Ticket state
-│       └── Giveaway.ts               # Giveaway state
+│   ├── connection.ts
+│   └── models/
+│       ├── Guild.ts
+│       ├── User.ts
+│       ├── Ticket.ts
+│       └── Giveaway.ts
 ├── modules/
-│   ├── tickets/                      # 6 commands + 2 components
-│   ├── moderation/                   # 10 commands
-│   ├── music/                        # 13 commands + Player engine
-│   ├── leveling/                     # 4 commands + XP event
-│   ├── economy/                      # 12 commands + shop component
-│   ├── giveaways/                    # 3 commands + entry component
-│   └── core/                         # Global commands (help)
+│   ├── tickets/
+│   ├── moderation/
+│   ├── music/
+│   ├── leveling/
+│   ├── economy/
+│   ├── giveaways/
+│   └── core/
 └── shared/
-    ├── types/                        # TypeScript interfaces
-    ├── services/                     # Guild/User with caching
-    └── utils/                        # Embeds, logger, helpers
+    ├── types/
+    ├── services/
+    └── utils/
 ```
 
 <br/>
